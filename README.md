@@ -16,8 +16,8 @@ The application is not very useful and has several flaws, but it was initially d
 * Go to the [Google Developers Console](https://console.developers.google.com/) and create a new project (the name doesn't really matter) 
 * Enable the Google Calendar API by searchinf for its name in the search bar at the top of the page and clicking on "Enable API" 
 * Create a Oauth2 credentials clicking on the Credentials element located in the sidebar on the left of the screen. If this is the first time you create a credential, you may have to create a consent screen as well. 
-* Download the client_secret.json file linked to these credentials
-* Include the file in the main project folder 
+* Download the client_secrets.json file linked to these credentials
+* Include the file in the main project folder (remember to update its name)
 
 ## Instructions - Launching the application
 
@@ -32,6 +32,9 @@ The application is not very useful and has several flaws, but it was initially d
 * Introduce whatever number in the two input fields and clisk on Submit
 * At this point, you should follow the usual steps to allow an external service to access your information. As the scope of the API included in the get_events.py file is https://www.googleapis.com/auth/calendar.events.readonly, the application will just ask for read-only right. 
 * If you haven't verified the application in the Google Developer Console, you will see this screen: don't worry and click to "Go to xxxx". My laptop is is Spanish, so the message is displayed in this language. 
+
+![](images/warning.PNG)
+
 * Once you go through the whole process, go back to the application: it should have realoaded and display the amount of your salary that went to meetings on average based on data since the beginning of the year
 
 ## Flaws 
