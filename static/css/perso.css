@@ -1,0 +1,21 @@
+#header {
+	background:url('../img/bg-masthead.jpg') no-repeat center center;
+	background-size:cover;
+}
+
+#section_1 {
+	background-image:url("../img/screen-1839500_1280.jpg");
+}
+
+#section_2 {
+	background-image:url("../img/bg-showcase-2.jpg");
+}
+
+#section_3 {
+	background-image:url("../img/bg-showcase-3.jpg");
+}
+
+#section_4 {
+	background:url("../img/bg-masthead.jpg") no-repeat center center;
+	background-size:cover;
+}
