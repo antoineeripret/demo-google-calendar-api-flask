@@ -4,7 +4,7 @@ This very simple application - with missing front-end to be published - can be u
 * Google Calendar API
 * FLASK
 
-## How does it do 
+## What does it do 
 
 This applicatoon will fetch your **confirmed** events from your Google Calendar and based on two inputs you need to give (your salary and the number of hours you work per week), it will return the amount of your salary which is allocated to these meetings. 
 
